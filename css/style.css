@@ -62,7 +62,7 @@ header{
     }
     header{
         width: 100%;
-        overflow: hidden;
+        /* overflow: hidden; */
         justify-content: flex-end;
     }
     #nav{
@@ -657,9 +657,7 @@ input{
     .brands{
         height: auto;
     }
-    .contentBrandsPage{
-
-    }
+    
     /* contacto */
     .sectionPresent{
         flex-direction: column-reverse;
@@ -720,4 +718,12 @@ input{
     .text h1{
         font-size: 3rem;
     }
+}
+
+/* Bt out */
+ul{
+    margin-bottom: 0;
+}
+button:focus{
+    outline: none;
 }
